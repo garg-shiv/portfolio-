@@ -57,11 +57,11 @@ export const getTitleIcon = (title: string ) => {
         rankColor: "text-green-300",
         rankBgColor: "bg-green-300",
       };
-    case "pupil":
+    case "specialist":
       return {
         rankIcon: null,
-        rankColor: "text-green-500",
-        rankBgColor: "bg-green-500",
+        rankColor: "text-cyan-500",
+        rankBgColor: "bg-cyan-500",
       };
     case "3*":
       return { rankColor: "text-blue-800", rankBgColor: "bg-blue-800" };
